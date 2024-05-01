@@ -7,19 +7,20 @@
 .footer-container{
     display: flex;
     justify-content: space-between;
-}
-.footer img{
-    width: 100px;
-    margin-bottom: 10px;
+    font-size: 18px;
 }
 .footer p{
     font-size: 14px;
 }
+.footer-menu, .footer-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
 .footer-menu li{
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-    font-size: 20px;
+    gap: 25px;
+    font-size: 16px;
     transition: 0.5s;
     cursor: pointer;
 }

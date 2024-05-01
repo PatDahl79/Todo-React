@@ -19,8 +19,11 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.logo{
+.logo, .nav-open, .nav-close{
     width: 80px;
+}
+.nav-open, .nav-close{
+    display: none;
 }
 .nav-connect:hover{
     transform: scale(1.05);
@@ -40,25 +43,36 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.nav-menu li img{
-    display: flex;
-    margin: auto;
+.anchor-link{
+    text-decoration: none;
+    color: white;
 }
-
 
 @media(max-width:768px){
     .navbar{
         margin: 20px 6%;
     }
+    .nav-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    .nav-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
     .nav-connect{
         display: none;
     }
-    .nav-mob-open{
+    .nav-open{
         display: block;
         position: absolute;
         right: 30px;
     }
-    .nav-mob-close{
+    .nav-close{
         display: block;
         position: absolute;
         top: 30px;

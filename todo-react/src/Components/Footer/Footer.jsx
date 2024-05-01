@@ -1,7 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../../assets/logo (2).svg'
-import mail from '../../assets/Mail-icon.png'
 
 const Footer = () => {
   return (
@@ -9,8 +7,7 @@ const Footer = () => {
         <hr />
         <div className="footer-container">
             <div className="footer-left">
-                <img src={logo} alt="" />
-                <p className="footer-left">© 2024 Todod Lists. All rights reserved.</p>
+                <p>© 2024 Todod Lists. All rights reserved.</p>
             </div>
 
             <div className="footer-right">

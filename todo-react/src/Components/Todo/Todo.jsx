@@ -42,9 +42,9 @@ function Todo() {
   }
 
   return(
-    <div className="to-do-list">
+    <div id='todo' className="to-do-list">
 
-      <h1>To-Do-Lists</h1>
+      <h1>To Do Lists</h1>
 
       <div>
         <input 
