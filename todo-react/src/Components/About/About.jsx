@@ -2,18 +2,17 @@ import React from 'react'
 import './About.css'
 import about from '../../assets/Todo.png'
 
-
 const About = () => {
   return (
-    <div id='about' className='about'>
-                <h1>What To do lists can help you</h1>
-                <p>Start your journey towards a more organized, focused, and empowered life today. 
-                    Create your first to-do list and experience the difference it can make for your ADHD.</p>
-        <div className="about-sections">
-                <div className="about-left">
-                    <img src={about} alt="" />
-                </div>
-                <div className="about-right">
+    <div className='about'>
+        <div className="about-title">
+        <h1>What To do lists can help you</h1>
+        <img src={about} alt="" />
+            <p>Start your journey towards a more organized, focused, and empowered life today. 
+                Create your first to-do list and experience the difference it can make for your ADHD.</p>
+        </div>
+                
+        <div className="about-paragraf">
                     <div className="about-para">
                         <h2>Stay Organized</h2>
                         <p>With ADHD, staying organized can feel like an uphill battle. But fear not! A to-do list acts as your personal roadmap, 
@@ -34,7 +33,6 @@ const About = () => {
                             <p>The constant buzz of thoughts and worries can leave you feeling overwhelmed.
                                 Yet, a to-do list provides a sanctuary of calm amidst the chaos. Externalize your thoughts, release the burden of worry, and embrace a newfound sense of control.</p>
                     </div>
-                </div>
         </div>
     </div>
     )
