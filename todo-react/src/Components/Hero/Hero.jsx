@@ -1,7 +1,6 @@
 import React from 'react'
 import './Hero.css'
 import hero_img from '../../assets/adhd-hejp.png'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
   return (
@@ -12,7 +11,7 @@ const Hero = () => {
       <p>Living with ADHD can feel like navigating a never-ending whirlwind of thoughts and tasks. 
         But what if there was a simple tool that could help you regain control and unlock your full potential?</p>
       <div className="hero-action">
-        <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#todo'>To do list</AnchorLink></div>
+      <div className="hero-connect"><a className='link' href='/todo'>To do lists</a></div>
         
       </div>
     </div>

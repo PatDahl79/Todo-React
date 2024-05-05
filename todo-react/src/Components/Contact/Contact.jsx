@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import meditation from '../../assets/Meditation-icon.png';
 import mail from '../../assets/Mail-icon.png';
 import call from '../../assets/Call-icon.png';
 import home from '../../assets/Home-icon.png';

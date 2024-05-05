@@ -14,8 +14,8 @@ const Footer = () => {
                 <ul className="footer-menu">
                 <li>Term of Services</li>
                 <li>Privacy Policy</li>
-                <li>To do lists</li>
-                <li>Connect with us</li>
+                <li><a href="/todo">Todo Lists</a></li>
+                <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
         </div>

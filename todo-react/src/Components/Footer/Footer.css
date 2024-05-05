@@ -4,6 +4,10 @@
     flex-direction: column;
     gap: 25px;
 }
+.footer a{
+    color: azure;
+    text-decoration: none;
+}
 .footer-container{
     display: flex;
     justify-content: space-between;
